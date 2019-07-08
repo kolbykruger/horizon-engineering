@@ -23,7 +23,7 @@ $('iframe[src*="youtube"]').wrap('<div class="responsiveIframe"/>');
     //$( ".nav > .drop_trigger, .mobile_nav > .drop_trigger" ).each(function(){$( this ).children('a:first').attr( "onclick", "return false" );});
 
     $('.nav .drop_menu').each(function() {
-       if ($(this).find(".item").length >= 8) {
+       if ($(this).find(".item").length >= 10) {
            $(this).addClass('column_nav');
        }
     });
